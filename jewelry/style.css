@@ -1,0 +1,111 @@
+body{
+	background-image: url("background.jpg");
+	font-family: serif;
+	font-size: 16px;
+	margin:0px;
+	padding:0px;
+}
+.content{
+	margin: 0px auto;
+	width: 1000px;
+}
+header{
+	border-bottom: 3px solid #3333ff;
+}
+ .mylogo{
+	float: left;
+	width:150px;
+	padding-left: 50px;
+}
+h1{
+	font-size:35px;
+	font-family:"Comic Sans MS", serif;
+	padding-left: 250px;
+	color: #DC143C;
+}
+nav{
+	background-image: url("background_menu.jpg");
+	margin-bottom:20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	height: 50px;	
+}
+.menu{
+    display: inline-block;
+	float: left;
+	width: 230px;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 10px;
+	color: #3333ff;
+	text-decoration: none;	
+}
+a:hover
+{
+	text-decoration: underline;
+}
+main{
+	background-color: #d9d9d9;
+	height: 411px;
+}
+.main_photo{
+	width: 550px;
+	float:left;
+}
+h2{
+	text-align: center;
+	padding-top: 5px;
+}
+p{
+	text-indent: 40px;
+	margin: 30px 10px 0px 570px; 
+}
+.set, .product{
+	width: 380px;
+	height: 280px;
+	float: left;
+	margin:10px 0px 0px 50px;
+}
+div.sets, div.products{
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+	
+}
+.set_name, .product_name{
+	display: block;
+}
+#set1 p, #set2 p{
+	margin-left: 450px;
+}
+.old_price{
+	text-decoration:line-through;
+}
+div.sets a, div.products a{
+	text-decoration: none;
+	color: #161b1d;
+}
+div.sets a:hover, div.products a:hover{
+	text-decoration: underline;
+}
+.ring{
+	width: 300px;
+	height: 220px;
+	float: left;
+	margin:10px 0px 0px 10px;
+}
+.rings{
+	padding-top: 10px;
+}
+.price{
+	margin: 300px 0px 0px 30px;
+}
+address a{
+	text-decoration: none;
+}
+address{
+	margin: 80px 0px 0px 30px;
+}
